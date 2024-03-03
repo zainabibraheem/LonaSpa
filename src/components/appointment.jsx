@@ -37,7 +37,7 @@ const Appointment = () => {
         <div className='grid md:grid-cols-2' id='appointment'>
             <div className='py-10 px-10' >
 
-                <h2 className=''>Schedule Your Appointment With Us</h2>
+                <h2 className='text-2xl mb-3 text-center'>Schedule Your Appointment With Us</h2>
 
                 <form className=' flex flex-col gap-5'>
                     <div>
