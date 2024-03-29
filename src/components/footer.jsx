@@ -8,6 +8,7 @@ const Footer = () => {
       <div className='flex items-center gap-1 justify-center text-sm font-sans text-gray-800 leading-7 tracking-wide'>
         <BiCopyright className='block'/> LonaSpa 2024 | Developed by Zainab
       </div>
+      
       <div className='flex gap-6 text-[12px] font-sans text-gray-800 leading-7 tracking-wide'>
         <h3 className='hover:scale-125  hover:text-[#E4405F] hover:underline duration:700 ease-in-out'>REFUNDS</h3>
         <h3 className='hover:scale-125  hover:text-[#E4405F] hover:underline duration:700 ease-in-out'>TERMS</h3>
