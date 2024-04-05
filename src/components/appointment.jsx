@@ -31,6 +31,8 @@ const Appointment = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
+        alert('Your appointent has been book succesfully, and appointment emails has been sent to your email');
+        event.target.reset();
     }
 
     return (
@@ -107,7 +109,7 @@ const Appointment = () => {
 
             </div>
 
-            <img className='xl:h-full' src={interior} alt='lonaSpa interior '/>
+            <img className='xl:h-full' src={interior} alt='lonaSpa interior ' loaadin='lazy'/>
         </div>
     )
 }
