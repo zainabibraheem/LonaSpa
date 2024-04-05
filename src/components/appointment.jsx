@@ -32,7 +32,12 @@ const Appointment = () => {
     const handleSubmit = (event) => {
         event.preventDefault();
         alert('Your appointent has been book succesfully, and appointment emails has been sent to your email');
-        event.target.reset();
+        setFormData({
+            username: '',
+            email: '',
+            phone: '',
+            description: '' 
+        })
     }
 
     return (
