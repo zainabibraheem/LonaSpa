@@ -17,7 +17,7 @@ const About = (data) => {
                     return (
                         <div className='' key={index}>
                             <div className='w-[250px] h-[350px] border-[1px] border-gray-400 overflow-hidden rounded-full hover:scale-105 group relative mb-3'>
-                              <img className='w-full h-full' src={data.image} alt={data.title}/>
+                              <img className='w-full h-full' src={data.image} alt={data.title} loading='lazy'/>
                               <span className='text-center text-2xl hidden group-hover:block transform-y-8 absolute bottom-0 text-gray-900 bg-white w-full p-8 transition-all duration-300 ease-in-out'>
                               <h3 className=''>{data.title}</h3>
                               </span>
