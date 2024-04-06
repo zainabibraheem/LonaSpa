@@ -1,5 +1,5 @@
 import React from 'react';
-import lonaspa from '../assets/lonaspa.jpg'
+import lonaspa from '../assets/lonaspa2.jpg'
 import Navbar from './navbar';
 
 const Hero = () => {

@@ -1,8 +1,8 @@
 // about images
 
-import massage from './assets/about1.jpg'
-import facials from './assets/about2.jpg'
-import about3 from './assets/manicure.jpg'
+import massage from './assets/massage2.jpg'
+import facials from './assets/facials2.jpg'
+import about3 from './assets/manicure2.jpg'
 
 // about  page data
 

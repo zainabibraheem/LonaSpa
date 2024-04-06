@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { IoIosArrowBack, IoIosArrowDown } from "react-icons/io";
 import { servicesData } from '../data';
-import interior from '../assets/interior.jpg'
+import interior from '../assets/interior2.jpg'
 
 const Appointment = () => {
     const [dropdown, setDropdown] = useState(false)
@@ -31,13 +31,14 @@ const Appointment = () => {
 
     const handleSubmit = (event) => {
         event.preventDefault();
-        alert('Your appointent has been book succesfully, and appointment emails has been sent to your email');
         setFormData({
             username: '',
             email: '',
             phone: '',
             description: '' 
         })
+        alert('Your appointent has been book succesfully, and appointment emails has been sent to your email');
+        
     }
 
     return (
